@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const ReaderModel = require('./reader')
+const ReaderModel = require('./reader');
 
 const { PGDATABASE, PGUSER, PGPASSWORD, PGHOST, PGPORT } = process.env;
 
